@@ -28,6 +28,20 @@
 				border-bottom: 1px solid #BBBBBB;
 			}
 			
+			.bottom-link {
+				color: gray;
+				background-color: gainsboro;
+				text-align: center;
+				text-decoration: none;
+				width: 100%;
+				margin-left: -50px;
+				margin-right: 50px;
+				padding-top: 1.1rem;
+				padding-bottom: 1.1rem;
+				position: absolute;
+				bottom: 0;
+			}
+			
 			.block-frame {
 				padding: 0.5rem 2rem 0.5rem 2rem;
 				/*border: 1px solid black;*/
@@ -88,9 +102,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#me" class="icon icon-home active"><span>Home</span></a>
+						<a href="#about-me" class="icon icon-user"><span>About me</span></a>
 						<a href="#work" class="icon icon-folder-close"><span>Work</span></a>
-						<a href="#content" class="icon icon-user"><span>Content</span></a>
-						<a href="http://blog.yuan817.twbbs.org/album" class="icon icon-picture"><span>Picture</span></a>
+						<a href="#content" class="icon icon-envelope"><span>Content</span></a>
 						<a href="#comment" class="icon icon-comment"><span>Comment</span></a>
 					</nav>
 
@@ -103,12 +117,24 @@
 									<h1>元兒～</h1>
 									<span class="byline">喜歡亂玩電腦的小小大學生</span>
 								</header>
-								<a href="#work" class="jumplink pic">
+								<a href="#about-me" class="jumplink pic">
 									<span class="jumplink arrow icon icon-chevron-right"><span>See my work</span></span>
 									<img src="http://www.gravatar.com/avatar/bea25b1791509faa5d1df5f620b118e8.png?s=300" alt="" />
 								</a>
 							</article>
 
+						<!-- About me -->
+							<article id="about-me" class="panel">
+								<header>
+									<h2>我是誰</h2>
+								</header>
+								<section class="block-frame">
+									
+								</section>
+								<a href="#work" class="jumplink bottom-link">關於我的作品</a>
+							</article>
+						<!-- About me -->
+						
 						<!-- Work --> 
 							<article id="work" class="panel">
 								<h2>部落格</h2>
@@ -221,5 +247,10 @@
 					</div>
 		
 			</div>
+			<script>
+					if ( $(window).width() <= 480 ) {
+						$(".bottom-link").remove();
+					}
+			</script>
 	</body>
 </html>
