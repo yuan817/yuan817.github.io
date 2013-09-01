@@ -42,56 +42,17 @@
 				bottom: 0;
 			}
 			
-			.block-frame {
-				padding: 0.5rem 2rem 0.5rem 2rem;
-				/*border: 1px solid black;*/
+			#work figure h3{
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 1.3em;
 			}
-
-			.block {
-				margin: 0.5rem;
-				width: 230px;
-				line-height: 1em;
-				
-				/*區塊邊*/
-				border-radius: 5px 5px 5px 5px;
-				-moz-border-radius: 5px 5px 5px 5px;
-				-webkit-border-radius: 5px 5px 5px 5px;
-				border: 1px solid #d6d6d6;
-
-                /*區塊背景*/
-				background: rgba(255,255,255,1);
-				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
-				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(68%, rgba(212,212,212,1)), color-stop(100%, rgba(235,235,235,1)));
-				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
-				background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
-				background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
-				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=0 );
-
-			}
-			.block a{
+			
+			#work figure a {
+				display: block;
 				text-decoration: none;
 			}
-			.block .block-icon{
-				float: left;
-				margin-left: 10px;
-				margin-right: 10px;
-				min-height: 2rem;
-			}
-			.block .block-title{
-				display: block;
-				color: black;
-				font-weight: bold;
-				font-size: 1.1rem;
-				margin-top: 0.2rem;
-			}
-			.block .block-content{
-				display: block;
-				color: gray;
-				font-weight: none;
-				font-size: 1rem;
-				margin-bottom: 0.2rem;
-			}
+			
 		</style>
 	</head>
 	<body class="homepage">
@@ -128,9 +89,13 @@
 								<header>
 									<h2>我是誰</h2>
 								</header>
-								<section class="block-frame">
-									
-								</section>
+								<p>一位喜愛自由軟體、捷運、ACG的小小大學生</p>
+								<ul>
+									<li>也有人叫我: 小元<del>(小圓)</del>、 阿元</li>
+									<li>我的本名: 邱迺元</li>
+									<li>目前就讀：新竹中華大學-資訊工程系</li>
+									<li>常出沒: 新竹地區、 台北市</li>
+								</ul>
 								<a href="#work" class="jumplink bottom-link">關於我的作品</a>
 							</article>
 						<!-- About me -->
@@ -139,13 +104,13 @@
 							<article id="work" class="panel">
 								<h2>部落格</h2>
 								<section>
-									<a href="http://blog.yuan817.twbbs.org/">
-										<figure style="min-height: 200px;">
-											<img src="http://api1.thumbalizr.com/?api_key=88943ee3fa27eb600539a931fd66b8d9&url=http://blog.yuan817.twbbs.org&width=250" style="float: left; margin-right: 1em;" />
-											<figcaption>元來‧電腦是那麼好玩</figcaption>
+									<figure style="min-height: 200px;">
+										<a href="http://blog.yuan817.twbbs.org/">
+											<img src="http://api.webthumbnail.org?width=500&height=400&format=png&screen=1024&url=http://blog.yuan817.twbbs.org" style="float: left; margin-right: 1em; max-width:300px;" />
+											<figcaption><h3>元來‧電腦是那麼好玩</h3></figcaption>
 											<p>http://blog.yuan817.twbbs.org/</p>
-										</figure>
-									</a>
+										</a>
+									</figure>
 								</section>
 								
 								<h2>其他</h2>
@@ -181,7 +146,30 @@
 								<header>
 									<h2>聯絡我</h2>
 								</header>
-								<section class="block-frame">
+								<ul>
+									<li><span class="icon icon-envelope"></span> E-mail: 
+										<ul>
+											<li><a href="mailto:yuan817@moztw.org">yuan817@moztw.org</a></li>
+											<li><a href="mailto:yuan817@msn.com">yuan817@msn.com</a></li>
+										</ul>
+									</li>
+									<li>Plurk: 
+										<ul>
+											<li><a href="http://http://www.plurk.com/yuan817">yuan817</a></li>
+										</ul>
+									</li>
+									<li><span class="icon icon-facebook-sign"></span> Facebook: 
+										<ul>
+											<li><a href="https://www.facebook.com/yuan817">Yuan Chiu</a></li>
+										</ul>
+									</li>
+									<li><span class="icon icon-skype"></span> Skype: 
+										<ul>
+											<li>yuan817_tw</li>
+										</ul>
+									</li>
+								</ul>
+								<!--<section class="block-frame">
 									<div class="row half">
 										<div class="4u block">
 											<a href="mailto:yuan817@moztw.org">
@@ -209,7 +197,7 @@
 											</div>
 										
 									</div>
-								</section>
+								</section>-->
 							</article>
 						<!-- Content -->
 							<article id="comment" class="panel">

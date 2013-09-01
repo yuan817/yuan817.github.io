@@ -1,0 +1,50 @@
+ 
+.block-frame {
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	/*border: 1px solid black;*/
+}
+
+.block {
+	margin: 0.5rem;
+	width: 230px;
+	line-height: 1em;
+	
+	/*區塊邊*/
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #d6d6d6;
+	/*區塊背景*/
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(68%, rgba(212,212,212,1)), color-stop(100%, rgba(235,235,235,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 68%, rgba(235,235,235,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb', GradientType=0 );
+
+}
+.block a{
+	text-decoration: none;
+}
+.block .block-icon{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-height: 2rem;
+}
+.block .block-title{
+	display: block;
+	color: black;
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-top: 0.2rem;
+}
+.block .block-content{
+	display: block;
+	color: gray;
+	font-weight: none;
+	font-size: 1rem;
+	margin-bottom: 0.2rem;
+}
