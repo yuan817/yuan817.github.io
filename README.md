@@ -12,6 +12,10 @@
 本著作由元兒～製作， [以創用CC 姓名標示 3.0 Unported 授權條款](http://creativecommons.org/licenses/by/3.0/deed.zh_TW) 釋出。
 此作品衍生自 <http://html5up.net/astral/> 。
 
+### HTML5 UP 的說明文件與授權
+* [Astral 2.1 by HTML5 UP](/README.txt)
+* [Creative Commons Attribution 3.0 Unported](/LICENSE.txt)
+
 ## 採用資源
 ### 採用模板
 * [HTML5 UP](http://html5up.net/) - [Astral](http://html5up.net/astral/)
