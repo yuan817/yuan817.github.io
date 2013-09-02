@@ -22,6 +22,11 @@
     * jQuery v1.10.1 (HTML5 UP模板內咐的)
     * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 圖示庫 (HTML5 UP模板內咐的)
 
+### WebThumbnail
+網頁擷圖
+
+<http://webthumbnail.org/>
+
 ### Feed2JS
 利用Javascript取的RSS摘要
 
