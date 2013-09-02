@@ -33,7 +33,7 @@
 			Fallback for browsers that don't support pseudo elements.
 		*/
 
-		background: url('images/bg.jpg');
+		background: url('images/DSC03923.JPG');
 	}
 
 		body:before
@@ -52,7 +52,7 @@
 				set background-size to "cover".
 			*/
 
-			background: url('images/bg.jpg');
+			background: url('images/DSC03923.JPG');
 			background-size: 100% 100%;
 		}
 
