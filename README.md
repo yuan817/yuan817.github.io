@@ -1,7 +1,7 @@
 我在Github上的個人網站
 ======
 ## 本站網址
-<http://yuan817.twbbs.org>
+<http://yuaner.tw>
 
 ## 這個首頁目前居住在
 這個首頁目前寄住在Github提供的網頁空間 [Github Pages](http://pages.github.com/) 上
